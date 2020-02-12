@@ -24,7 +24,7 @@
 
             <td><?php echo $row['genre']; ?></td> 
             <td><?php echo $row['song']; ?></td> 
-            <td><?php echo $row['artist']; ?></td> <br>
+            <td><?php echo $row['artist']; ?></td> 
         </tr>
         </tbody>
 

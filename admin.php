@@ -6,7 +6,7 @@
     <title>Admin</title>
 </head>
 <body>
-
+<h1>Admin</h1> <br>
     <form action="save.php" method="POST">
     Genre :
     <input type="text" name="genre" placeholder="Song Genre">
@@ -22,7 +22,15 @@
     <button name="save"> Save</button>
     </form>
     
-
+    <table >
+  <thead>
+    <tr>     
+            <th scope="col-5">Genre</th>
+            <th scope="col">Song</th>
+            <th scope="col">Artist</th>
+            
+    </tr>
+  </thead>
 <?php
     include 'select.php';
 ?>

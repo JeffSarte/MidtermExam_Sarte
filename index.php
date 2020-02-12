@@ -1,6 +1,6 @@
 <?php
      include 'include/conn.php';
-
+     
 ?>
 
 
@@ -13,9 +13,25 @@
 </head>
 <body>
 
+
+<h1>User</h1><br>
+    Select Genre : <br>
+    <table >
+    <thead>
+    <tr>     
+            <th scope="col-5">Genre</th>
+            <th scope="col">Song</th>
+            <th scope="col">Artist</th>
+            
+    </tr>
+  </thead>
+  <?php
+  include 'select.php';
+  ?>
+
     
     <form action="admin.php">
-    <button type="submit" name="save">save</button>
+    <button type="submit" name="save">Search</button>
 
     </form>
 
